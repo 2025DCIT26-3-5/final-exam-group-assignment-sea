@@ -1,0 +1,6 @@
+{
+  "appId": "com.pusha.aviso",
+  "appName": "AVISO",
+  "webDir": "build",
+  "bundledWebRuntime": true
+}
