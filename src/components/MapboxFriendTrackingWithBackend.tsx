@@ -35,7 +35,7 @@ import {
   publicAnonKey,
 } from "../utils/supabase/info";
 
-// Add your Mapbox token here
+// Mapbox token
 const MAPBOX_TOKEN =
   "pk.eyJ1IjoidGFtYWtpaWkiLCJhIjoiY21qemtjMWp5MDBobDNwb3F1emFsNDV3NSJ9.JdlzkWCF5oyOLUdBV9Illg";
 const OPENWEATHER_API_KEY = "a96c621bdb7a200005963f01601a9020";
