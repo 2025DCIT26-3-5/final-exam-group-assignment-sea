@@ -2,52 +2,12 @@
 
 ## Overview
 
-WeatherGuard is a mobile weather advisory app with:
+AVISO is a mobile weather advisory app with:
 - **Real-time weather tracking** using OpenWeatherMap API
 - **Friend location tracking** with Life360-style features using Mapbox
 - **Live storm tracking** with precipitation, wind, and cloud layers
 - **Emergency alerts** and SOS functionality
 - **Supabase backend integration** for real-time data sync across devices
-
-## 🚀 Quick Setup
-
-### Step 1: Get API Keys
-
-#### Mapbox Access Token (Required)
-1. Sign up at [https://www.mapbox.com/](https://www.mapbox.com/)
-2. Get your default public token from the dashboard
-3. Free tier: 50,000 map loads/month
-
-#### OpenWeatherMap API Key (Required)
-1. Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
-2. Generate an API key (takes a few minutes to activate)
-3. Free tier: 1,000 calls/day
-
-### Step 2: Add Your API Keys
-
-Update these files with your API keys:
-
-**File: `/components/MapboxFriendTrackingWithBackend.tsx`**
-```typescript
-// Line 28
-const MAPBOX_TOKEN = "pk.YOUR_ACTUAL_TOKEN_HERE";
-
-// Line 29
-const OPENWEATHER_API_KEY = "YOUR_ACTUAL_API_KEY_HERE";
-```
-
-**File: `/components/MapboxStormTracking.tsx`**
-```typescript
-// Line 29
-const MAPBOX_TOKEN = "pk.YOUR_ACTUAL_TOKEN_HERE";
-
-// Line 30
-const OPENWEATHER_API_KEY = "YOUR_ACTUAL_API_KEY_HERE";
-```
-
-### Step 3: Run the App
-
-The app will work immediately with the API keys. Supabase backend is optional but recommended for real-time features.
 
 ## 🗺️ Features Breakdown
 
@@ -76,14 +36,6 @@ The app includes a Supabase backend for:
 - Persistent weather data storage
 - Storm tracking history
 - Cross-device synchronization
-
-## 🔧 Backend Setup (Optional)
-
-Your Supabase backend is already configured! The app will automatically:
-1. Check if backend is available
-2. Sync friend locations to the database
-3. Fetch updates from other devices
-4. Store weather and storm data
 
 ### Backend API Endpoints
 
@@ -217,25 +169,6 @@ Automatic storm categorization:
 2. Batch location updates
 3. Use CDN for static assets
 4. Implement request debouncing
-
-## 🚀 Next Steps
-
-### Enhancements You Could Add:
-- [ ] User authentication and profiles
-- [ ] Friend circles and groups
-- [ ] Location history and heatmaps
-- [ ] Push notifications for storms
-- [ ] Offline mode with cached data
-- [ ] Custom alert zones
-- [ ] Share location via SMS/links
-- [ ] Export weather reports
-
-### Backend Expansion:
-- [ ] Friend request system
-- [ ] Location sharing permissions
-- [ ] Historical weather data
-- [ ] Storm path predictions
-- [ ] Group chat integration
 
 ## 📚 Documentation Links
 
