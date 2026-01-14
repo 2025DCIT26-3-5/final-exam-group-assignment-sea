@@ -557,5 +557,3 @@ When adding features:
 6. Test on mobile devices
 
 ---
-
-**Happy Coding!** 🚀
